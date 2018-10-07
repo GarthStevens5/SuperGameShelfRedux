@@ -12,8 +12,25 @@ header{
   background-color: cadetblue;
 }
 
-platformList{
+.platAndGameContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.platformList{
   height: 80vh;
   width: 15vw;
   background-color: palegreen;
+}
+
+.gameShelf{
+  height: 80vh;
+  width: 85vw;
+  background-color: aquamarine
+}
+
+footer{
+  height: 5vh;
+  width: 100vw;
+  background-color: gray;
 }

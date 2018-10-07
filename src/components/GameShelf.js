@@ -2,7 +2,7 @@ import React from 'react'
 
 const GameShelf = (props) => {
   return(
-    <div>
+    <div className='gameShelf'>
       <ul>
         <li>Game 1</li>
         <li>Game 2</li>

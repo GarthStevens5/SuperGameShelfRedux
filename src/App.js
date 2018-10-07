@@ -10,8 +10,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <PlatformList />
-        <GameShelf /> 
+        <div className='platAndGameContainer'>
+          <PlatformList />
+          <GameShelf /> 
+        </div>
         <Footer />
       </div>
     )
